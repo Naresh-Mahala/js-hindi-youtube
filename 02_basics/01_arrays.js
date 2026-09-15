@@ -6,4 +6,7 @@ const myArr2=new Array(1,2,3,4,5);//ese bhi declare krdo
 
 console.log(myArr[0]);
 
-//phir se baht saare methods... push, pop, unshift, shift, slice, splice...... 
+//phir se baht saare methods... push, pop, unshift, shift, slice, splice......
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//  phir se method... push,concat(return new array),spread(...   ,...     ,...    ), flat,Array.isArray,Array.from,Array.to 
