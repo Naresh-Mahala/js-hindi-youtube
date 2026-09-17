@@ -53,5 +53,31 @@ const users=[
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 // console.log(tinderUser.hasOwnProperty('isLog'));
 
+const course ={
+    coursename: "js in hindi",
+    price : "999",
+    courseReader : "Naresh"
+}
 
+// console.log(course.courseReader);//baar baar itna kyu likhna
+
+const {courseReader}=course;
+
+// console.log(courseReader);
+
+const {courseReader:cr}=course; //kuch bhi naam de skte hai...
+// console.log(cr);
+
+//JSON api 
+// {
+//     "name":"Naresh",
+//     "age": 22,
+//     "status": "single"
+// }
+
+[
+    {},
+    {},
+    {},
+]
 
