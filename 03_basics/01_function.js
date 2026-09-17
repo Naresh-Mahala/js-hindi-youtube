@@ -71,9 +71,32 @@ function returnSecondValue(anyArray){
     return anyArray[1]
 }
 
-console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([1,2,3,4]));
-console.log(returnSecondValue([1]));
+// console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue([1,2,3,4]));
+// console.log(returnSecondValue([1]));
 
+//+++++++++++++intersting++++++++++++++++
 
+/*
+console.log(addone(5)); //no error
+
+function addone(num){
+    return num+1
+}
+*/
+
+/*
+addTwo(5) //error..esko phle call nhi kr skte
+
+const addTwo=function(num){
+    return num+2
+}
+*/
+
+const addTwo=function(num){
+    return num+2
+}
+
+// addTwo(5) //no error
+// console.log(addTwo(5)) //no error
 
